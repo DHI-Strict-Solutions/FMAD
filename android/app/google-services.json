@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1061506670476",
+    "project_id": "fmad-yvn4ct",
+    "storage_bucket": "fmad-yvn4ct.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061506670476:android:503e38a088063e6f6fc0a9",
+        "android_client_info": {
+          "package_name": "company.privateaero.fma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061506670476-cqujn1hovmnh3hp2001j4butrhf3sfne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzym_i5oMU3B-W2vff4QrH8jJYaQtcwUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061506670476-cqujn1hovmnh3hp2001j4butrhf3sfne.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1061506670476-clku62dv2479moettjna6tol6155m16k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "company.privateaero.fma"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

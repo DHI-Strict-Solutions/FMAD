@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>AI Gen Project</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>FMAD</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>uk</string>
+		<string>ru</string>
+	</array>
+
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.1061506670476-clku62dv2479moettjna6tol6155m16k</string>
+                
+            </array>
+        </dict>
+
+        <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>fmad.com</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+        <string>fmad</string>
+        </array>
+        </dict>
+    </array>
+    <key>FlutterDeepLinkingEnabled</key>
+    <true/>
+
+
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+
+	<key>PermissionGroupNotification</key>
+    <string>Stay updated with the latest from FMA Management by allowing notifications.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>FMA Management needs access to your photos/media library to let you upload images, videos, or other files.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+    <string>Allow FMA Management to access your location to provide personalized features and recommendations.</string>
+	<key>NSCameraUsageDescription</key>
+    <string>Enable camera access to share moments, create content, or participate in calls within FMA Management.</string>
+	<key>NSCalendarsUsageDescription</key>
+    <string>o create events, reminders, or integrate with your schedule, FMA Management needs access to your calendar.</string>
+	<key>NSFaceIDUsageDescription</key>
+    <string>For enhanced security and convenience, FMA Management would like to use your biometrics (fingerprint/face ID) to verify your identity.</string>
+	<key>NSMicrophoneUsageDescription</key>
+    <string>Enable microphone access to share moments, create content, or participate in calls within FMA Management.</string>
+	<key>NSContactsUsageDescription</key>
+    <string>Grant FMA Management access to your contacts to easily connect with colleagues who are also using the app.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+    <string>"FMA Management would like to access Bluetooth to connect with devices, share files, or enable wireless features.</string>
+
+
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+
+</dict>
+</plist>

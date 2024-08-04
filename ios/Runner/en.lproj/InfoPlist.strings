@@ -1,0 +1,9 @@
+PermissionGroupNotification = "Stay updated with the latest from FMA Management by allowing notifications.";
+NSPhotoLibraryUsageDescription = "FMA Management needs access to your photos/media library to let you upload images, videos, or other files.";
+NSLocationWhenInUseUsageDescription = "Allow FMA Management to access your location to provide personalized features and recommendations.";
+NSCameraUsageDescription = "Enable camera access to share moments, create content, or participate in calls within FMA Management.";
+NSCalendarsUsageDescription = "o create events, reminders, or integrate with your schedule, FMA Management needs access to your calendar.";
+NSFaceIDUsageDescription = "For enhanced security and convenience, FMA Management would like to use your biometrics (fingerprint/face ID) to verify your identity.";
+NSMicrophoneUsageDescription = "Enable microphone access to share moments, create content, or participate in calls within FMA Management.";
+NSContactsUsageDescription = "Grant FMA Management access to your contacts to easily connect with colleagues who are also using the app.";
+NSBluetoothAlwaysUsageDescription = "\"FMA Management would like to access Bluetooth to connect with devices, share files, or enable wireless features.";
