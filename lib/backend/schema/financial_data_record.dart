@@ -3,15 +3,17 @@ import 'dart:async';
 import 'package:collection/collection.dart';
 
 import '/backend/schema/util/firestore_util.dart';
+import '/backend/schema/util/schema_util.dart';
+import '/backend/schema/enums/enums.dart';
 
 import 'index.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 
 class FinancialDataRecord extends FirestoreRecord {
   FinancialDataRecord._(
-    super.reference,
-    super.data,
-  ) {
+    DocumentReference reference,
+    Map<String, dynamic> data,
+  ) : super(reference, data) {
     _initializeFields();
   }
 
@@ -50,6 +52,21 @@ class FinancialDataRecord extends FirestoreRecord {
   String get flightId => _flightId ?? '';
   bool hasFlightId() => _flightId != null;
 
+  // "type" field.
+  List<String>? _type;
+  List<String> get type => _type ?? const [];
+  bool hasType() => _type != null;
+
+  // "description" field.
+  String? _description;
+  String get description => _description ?? '';
+  bool hasDescription() => _description != null;
+
+  // "date" field.
+  DateTime? _date;
+  DateTime? get date => _date;
+  bool hasDate() => _date != null;
+
   void _initializeFields() {
     _maintenanceCost = castToType<double>(snapshotData['maintenanceCost']);
     _flightHourCostWithoutPax =
@@ -60,6 +77,9 @@ class FinancialDataRecord extends FirestoreRecord {
     _insuranceCost = castToType<double>(snapshotData['insuranceCost']);
     _currency = snapshotData['currency'] as String?;
     _flightId = snapshotData['flightId'] as String?;
+    _type = getDataList(snapshotData['type']);
+    _description = snapshotData['description'] as String?;
+    _date = snapshotData['date'] as DateTime?;
   }
 
   static CollectionReference get collection =>
@@ -104,6 +124,8 @@ Map<String, dynamic> createFinancialDataRecordData({
   double? insuranceCost,
   String? currency,
   String? flightId,
+  String? description,
+  DateTime? date,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -114,6 +136,8 @@ Map<String, dynamic> createFinancialDataRecordData({
       'insuranceCost': insuranceCost,
       'currency': currency,
       'flightId': flightId,
+      'description': description,
+      'date': date,
     }.withoutNulls,
   );
 
@@ -126,13 +150,17 @@ class FinancialDataRecordDocumentEquality
 
   @override
   bool equals(FinancialDataRecord? e1, FinancialDataRecord? e2) {
+    const listEquality = ListEquality();
     return e1?.maintenanceCost == e2?.maintenanceCost &&
         e1?.flightHourCostWithoutPax == e2?.flightHourCostWithoutPax &&
         e1?.flightHourCostWithPax == e2?.flightHourCostWithPax &&
         e1?.rentCost == e2?.rentCost &&
         e1?.insuranceCost == e2?.insuranceCost &&
         e1?.currency == e2?.currency &&
-        e1?.flightId == e2?.flightId;
+        e1?.flightId == e2?.flightId &&
+        listEquality.equals(e1?.type, e2?.type) &&
+        e1?.description == e2?.description &&
+        e1?.date == e2?.date;
   }
 
   @override
@@ -143,7 +171,10 @@ class FinancialDataRecordDocumentEquality
         e?.rentCost,
         e?.insuranceCost,
         e?.currency,
-        e?.flightId
+        e?.flightId,
+        e?.type,
+        e?.description,
+        e?.date
       ]);
 
   @override

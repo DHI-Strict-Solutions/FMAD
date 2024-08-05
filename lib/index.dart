@@ -24,3 +24,6 @@ export '/maptracking/maptracking_widget.dart' show MaptrackingWidget;
 export '/profile/profile_widget.dart' show ProfileWidget;
 export '/side/side_widget.dart' show SideWidget;
 export '/bnb/bnb_widget.dart' show BnbWidget;
+export '/settings02/settings02_widget.dart' show Settings02Widget;
+export '/home17_calendar/home17_calendar_widget.dart' show Home17CalendarWidget;
+export '/reportscreen/reportscreen_widget.dart' show ReportscreenWidget;

@@ -1,6 +1,8 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'side_nav09_model.dart';
 export 'side_nav09_model.dart';
 
@@ -46,7 +48,7 @@ class _SideNav09WidgetState extends State<SideNav09Widget> {
         tablet: false,
       ),
       child: Padding(
-        padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 1.0, 0.0),
+        padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 1.0, 0.0),
         child: Container(
           width: 60.0,
           height: double.infinity,
@@ -56,7 +58,7 @@ class _SideNav09WidgetState extends State<SideNav09Widget> {
               BoxShadow(
                 blurRadius: 0.0,
                 color: FlutterFlowTheme.of(context).alternate,
-                offset: const Offset(
+                offset: Offset(
                   1.0,
                   0.0,
                 ),
@@ -64,7 +66,7 @@ class _SideNav09WidgetState extends State<SideNav09Widget> {
             ],
           ),
           child: Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
+            padding: EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
@@ -89,7 +91,7 @@ class _SideNav09WidgetState extends State<SideNav09Widget> {
                     borderRadius: BorderRadius.circular(12.0),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8.0),
                     child: Icon(
                       Icons.ssid_chart_rounded,
                       color: FlutterFlowTheme.of(context).accent4,
@@ -108,7 +110,7 @@ class _SideNav09WidgetState extends State<SideNav09Widget> {
                     ),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8.0),
                     child: Icon(
                       Icons.forum_rounded,
                       color: FlutterFlowTheme.of(context).info,
@@ -124,7 +126,7 @@ class _SideNav09WidgetState extends State<SideNav09Widget> {
                     borderRadius: BorderRadius.circular(12.0),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8.0),
                     child: Icon(
                       Icons.groups_sharp,
                       color: FlutterFlowTheme.of(context).accent4,
@@ -140,7 +142,7 @@ class _SideNav09WidgetState extends State<SideNav09Widget> {
                     borderRadius: BorderRadius.circular(12.0),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8.0),
                     child: Icon(
                       Icons.table_chart_outlined,
                       color: FlutterFlowTheme.of(context).accent4,
@@ -156,7 +158,7 @@ class _SideNav09WidgetState extends State<SideNav09Widget> {
                     borderRadius: BorderRadius.circular(12.0),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8.0),
                     child: Icon(
                       Icons.settings_rounded,
                       color: FlutterFlowTheme.of(context).accent4,
@@ -164,7 +166,7 @@ class _SideNav09WidgetState extends State<SideNav09Widget> {
                     ),
                   ),
                 ),
-              ].divide(const SizedBox(height: 16.0)),
+              ].divide(SizedBox(height: 16.0)),
             ),
           ),
         ),

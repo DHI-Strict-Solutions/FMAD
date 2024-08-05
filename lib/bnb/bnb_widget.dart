@@ -1,8 +1,10 @@
 import '/components/side_nav01_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'bnb_model.dart';
 export 'bnb_model.dart';
 
@@ -69,7 +71,7 @@ class _BnbWidgetState extends State<BnbWidget> {
                                         .headlineMediumFamily),
                               ),
                     ),
-                    actions: const [],
+                    actions: [],
                     centerTitle: false,
                     elevation: 0.0,
                   )
@@ -83,7 +85,7 @@ class _BnbWidgetState extends State<BnbWidget> {
                     child: wrapWithModel(
                       model: _model.sideNav01Model,
                       updateCallback: () => setState(() {}),
-                      child: const SideNav01Widget(),
+                      child: SideNav01Widget(),
                     ),
                   ),
                 ],

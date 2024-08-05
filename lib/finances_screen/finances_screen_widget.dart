@@ -3,6 +3,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'finances_screen_model.dart';
 export 'finances_screen_model.dart';
 
@@ -51,14 +52,14 @@ class _FinancesScreenWidgetState extends State<FinancesScreenWidget> {
               top: true,
               child: Padding(
                 padding:
-                    const EdgeInsetsDirectional.fromSTEB(16.0, 100.0, 16.0, 50.0),
+                    EdgeInsetsDirectional.fromSTEB(16.0, 100.0, 16.0, 50.0),
                 child: SingleChildScrollView(
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Padding(
                         padding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 16.0, 0.0),
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 16.0, 0.0),
                         child: Text(
                           FFLocalizations.of(context).getText(
                             'g4pyx0du' /* Financial Overview */,
@@ -79,13 +80,13 @@ class _FinancesScreenWidgetState extends State<FinancesScreenWidget> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(18.0),
+                        padding: EdgeInsets.all(18.0),
                         child: Container(
                           width: 325.0,
                           height: 32.0,
                           decoration: BoxDecoration(
-                            color: const Color(0xFFDAEAED),
-                            boxShadow: const [
+                            color: Color(0xFFDAEAED),
+                            boxShadow: [
                               BoxShadow(
                                 blurRadius: 5.0,
                                 color: Color(0x33000000),
@@ -95,7 +96,7 @@ class _FinancesScreenWidgetState extends State<FinancesScreenWidget> {
                                 ),
                               )
                             ],
-                            borderRadius: const BorderRadius.only(
+                            borderRadius: BorderRadius.only(
                               bottomLeft: Radius.circular(5.0),
                               bottomRight: Radius.circular(5.0),
                               topLeft: Radius.circular(5.0),
@@ -107,11 +108,11 @@ class _FinancesScreenWidgetState extends State<FinancesScreenWidget> {
                               width: 1.0,
                             ),
                           ),
-                          alignment: const AlignmentDirectional(1.0, 0.0),
+                          alignment: AlignmentDirectional(1.0, 0.0),
                           child: Align(
-                            alignment: const AlignmentDirectional(1.0, 0.0),
+                            alignment: AlignmentDirectional(1.0, 0.0),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
+                              padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 22.0, 0.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
@@ -136,13 +137,13 @@ class _FinancesScreenWidgetState extends State<FinancesScreenWidget> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(18.0),
+                        padding: EdgeInsets.all(18.0),
                         child: Container(
                           width: 325.0,
                           height: 32.0,
                           decoration: BoxDecoration(
-                            color: const Color(0xFFDAEAED),
-                            boxShadow: const [
+                            color: Color(0xFFDAEAED),
+                            boxShadow: [
                               BoxShadow(
                                 blurRadius: 5.0,
                                 color: Color(0x33000000),
@@ -152,7 +153,7 @@ class _FinancesScreenWidgetState extends State<FinancesScreenWidget> {
                                 ),
                               )
                             ],
-                            borderRadius: const BorderRadius.only(
+                            borderRadius: BorderRadius.only(
                               bottomLeft: Radius.circular(5.0),
                               bottomRight: Radius.circular(5.0),
                               topLeft: Radius.circular(5.0),
@@ -164,11 +165,11 @@ class _FinancesScreenWidgetState extends State<FinancesScreenWidget> {
                               width: 1.0,
                             ),
                           ),
-                          alignment: const AlignmentDirectional(1.0, 0.0),
+                          alignment: AlignmentDirectional(1.0, 0.0),
                           child: Align(
-                            alignment: const AlignmentDirectional(1.0, 0.0),
+                            alignment: AlignmentDirectional(1.0, 0.0),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
+                              padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 22.0, 0.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
@@ -193,7 +194,7 @@ class _FinancesScreenWidgetState extends State<FinancesScreenWidget> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 30.0, 0.0, 0.0),
                         child: FFButtonWidget(
                           onPressed: () {
@@ -205,9 +206,9 @@ class _FinancesScreenWidgetState extends State<FinancesScreenWidget> {
                           options: FFButtonOptions(
                             width: double.infinity,
                             height: 55.0,
-                            padding: const EdgeInsetsDirectional.fromSTEB(
+                            padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
-                            iconPadding: const EdgeInsetsDirectional.fromSTEB(
+                            iconPadding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
                             color: FlutterFlowTheme.of(context).primary,
                             textStyle: FlutterFlowTheme.of(context)

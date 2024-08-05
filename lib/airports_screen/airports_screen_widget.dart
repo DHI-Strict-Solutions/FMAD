@@ -1,8 +1,10 @@
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'airports_screen_model.dart';
 export 'airports_screen_model.dart';
 
@@ -81,19 +83,19 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                                 .titleMediumFamily),
                                   ),
                             ),
-                            actions: const [],
+                            actions: [],
                             centerTitle: true,
                             elevation: 0.0,
                           )
                         : null,
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
+                          EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
+                            padding: EdgeInsetsDirectional.fromSTEB(
                                 16.0, 0.0, 16.0, 0.0),
                             child: Material(
                               color: Colors.transparent,
@@ -114,7 +116,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                   ),
                                 ),
                                 child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
                                       16.0, 0.0, 12.0, 0.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -128,9 +130,9 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                       Expanded(
                                         child: Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   4.0, 0.0, 0.0, 0.0),
-                                          child: SizedBox(
+                                          child: Container(
                                             width: 200.0,
                                             child: TextFormField(
                                               controller: _model.textController,
@@ -235,7 +237,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
+                            padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 44.0),
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
@@ -247,7 +249,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                         .secondaryBackground,
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 12.0),
                                     child: Column(
                                       mainAxisSize: MainAxisSize.max,
@@ -256,7 +258,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                       children: [
                                         Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 8.0, 16.0, 12.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
@@ -281,7 +283,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                         ),
                                         Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 0.0, 16.0, 4.0),
                                           child: Row(
                                             mainAxisSize: MainAxisSize.max,
@@ -333,7 +335,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                         .secondaryBackground,
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 12.0),
                                     child: Column(
                                       mainAxisSize: MainAxisSize.max,
@@ -342,7 +344,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                       children: [
                                         Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 8.0, 16.0, 12.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
@@ -367,7 +369,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                         ),
                                         Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 0.0, 16.0, 4.0),
                                           child: Row(
                                             mainAxisSize: MainAxisSize.max,
@@ -419,7 +421,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                         .secondaryBackground,
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 12.0),
                                     child: Column(
                                       mainAxisSize: MainAxisSize.max,
@@ -428,7 +430,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                       children: [
                                         Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 8.0, 16.0, 12.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
@@ -453,7 +455,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                         ),
                                         Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 0.0, 16.0, 4.0),
                                           child: Row(
                                             mainAxisSize: MainAxisSize.max,
@@ -505,7 +507,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                         .secondaryBackground,
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 12.0),
                                     child: Column(
                                       mainAxisSize: MainAxisSize.max,
@@ -514,7 +516,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                       children: [
                                         Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 8.0, 16.0, 12.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
@@ -539,7 +541,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                         ),
                                         Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 0.0, 16.0, 4.0),
                                           child: Row(
                                             mainAxisSize: MainAxisSize.max,
@@ -591,7 +593,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                         .secondaryBackground,
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 12.0),
                                     child: Column(
                                       mainAxisSize: MainAxisSize.max,
@@ -600,7 +602,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                       children: [
                                         Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 8.0, 16.0, 12.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
@@ -625,7 +627,7 @@ class _AirportsScreenWidgetState extends State<AirportsScreenWidget> {
                                         ),
                                         Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
+                                              EdgeInsetsDirectional.fromSTEB(
                                                   16.0, 0.0, 16.0, 4.0),
                                           child: Row(
                                             mainAxisSize: MainAxisSize.max,

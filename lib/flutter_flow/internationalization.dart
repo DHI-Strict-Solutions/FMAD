@@ -1290,33 +1290,23 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // Profile
   {
-    'alo1miex': {
-      'en': 'Joy Augustin',
-      'ru': 'Джой Августин',
-      'uk': 'Джой Августин',
-    },
-    'j71k4g0b': {
-      'en': 'joy@augustin.com',
-      'ru': 'радость@augustin.com',
-      'uk': 'joy@augustin.com',
-    },
     '3irjao8y': {
       'en': 'Account',
       'ru': 'Счет',
       'uk': 'Обліковий запис',
     },
     'hbns1k91': {
-      'en': 'Payment Options',
+      'en': 'Contact Settings',
       'ru': 'Варианты оплаты',
       'uk': 'Варіанти оплати',
     },
     'cavyuyew': {
-      'en': 'Country',
+      'en': 'Localization ',
       'ru': 'Страна',
       'uk': 'Країна',
     },
     '2iqwkqsh': {
-      'en': 'Notification Settings',
+      'en': 'Payout Settings',
       'ru': 'Настройки уведомлений',
       'uk': 'Налаштування сповіщень',
     },
@@ -1350,10 +1340,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ru': 'Профиль',
       'uk': 'Профіль',
     },
-    'l0fc8xpo': {
+    'cgelpab5': {
       'en': 'Home',
-      'ru': 'Дом',
-      'uk': 'додому',
+      'ru': '',
+      'uk': '',
     },
   },
   // BNB
@@ -1369,10 +1359,389 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'uk': 'додому',
     },
   },
+  // Settings02
+  {
+    'c84hkjhc': {
+      'en': 'Settings Page',
+      'ru': '',
+      'uk': '',
+    },
+    'hbgqpbk7': {
+      'en': 'Please evaluate your options below.',
+      'ru': '',
+      'uk': '',
+    },
+    'xaehkiai': {
+      'en': 'My Subscription',
+      'ru': '',
+      'uk': '',
+    },
+    'yqtx1tt4': {
+      'en': 'Getting Started',
+      'ru': '',
+      'uk': '',
+    },
+    '8px8o9bq': {
+      'en': 'About Us',
+      'ru': '',
+      'uk': '',
+    },
+    '8oqgn7rd': {
+      'en': 'Help',
+      'ru': '',
+      'uk': '',
+    },
+    'rubepg3d': {
+      'en': 'Privacy Policy',
+      'ru': '',
+      'uk': '',
+    },
+    'ubjhs4t2': {
+      'en': 'Terms & Conditions',
+      'ru': '',
+      'uk': '',
+    },
+    'h6pp03pq': {
+      'en': 'Follow us on',
+      'ru': '',
+      'uk': '',
+    },
+    'lmhxyj9i': {
+      'en': 'App Versions',
+      'ru': '',
+      'uk': '',
+    },
+    'wfo9efis': {
+      'en': 'v0.0.1',
+      'ru': '',
+      'uk': '',
+    },
+    'uv9g24bs': {
+      'en': 'Log Out',
+      'ru': '',
+      'uk': '',
+    },
+    'l0fc8xpo': {
+      'en': 'Home',
+      'ru': '',
+      'uk': '',
+    },
+  },
+  // Home17Calendar
+  {
+    'c4avfoub': {
+      'en': 'Month',
+      'ru': '',
+      'uk': '',
+    },
+    'd6t3cida': {
+      'en': 'Coming Up',
+      'ru': '',
+      'uk': '',
+    },
+    'l9xdpteu': {
+      'en': 'Doctors Check In',
+      'ru': '',
+      'uk': '',
+    },
+    '0v3842al': {
+      'en': '2:20pm',
+      'ru': '',
+      'uk': '',
+    },
+    '5pvniibn': {
+      'en': 'Wed, 03/08/2022',
+      'ru': '',
+      'uk': '',
+    },
+    'vudppcbv': {
+      'en': 'Past Due',
+      'ru': '',
+      'uk': '',
+    },
+    'xg57acrz': {
+      'en': 'Check In',
+      'ru': '',
+      'uk': '',
+    },
+    'pi7j8soh': {
+      'en': '2:20pm',
+      'ru': '',
+      'uk': '',
+    },
+    'imp44gpy': {
+      'en': 'Wed, 03/08/2022',
+      'ru': '',
+      'uk': '',
+    },
+    '9h6tb3oq': {
+      'en': 'Week',
+      'ru': '',
+      'uk': '',
+    },
+    'pxw37jyn': {
+      'en': 'Coming Up',
+      'ru': '',
+      'uk': '',
+    },
+    'jepn7nbn': {
+      'en': 'Doctors Check In',
+      'ru': '',
+      'uk': '',
+    },
+    'm4imbj39': {
+      'en': '2:20pm',
+      'ru': '',
+      'uk': '',
+    },
+    'ljo4q5co': {
+      'en': 'Wed, 03/08/2022',
+      'ru': '',
+      'uk': '',
+    },
+    'ks5xgm6d': {
+      'en': 'Past Due',
+      'ru': '',
+      'uk': '',
+    },
+    'jq1oq1hm': {
+      'en': 'Check In',
+      'ru': '',
+      'uk': '',
+    },
+    'ulvmr5jl': {
+      'en': '2:20pm',
+      'ru': '',
+      'uk': '',
+    },
+    'x5iluyvh': {
+      'en': 'Wed, 03/08/2022',
+      'ru': '',
+      'uk': '',
+    },
+    'lkp6l7a4': {
+      'en': 'Calendar',
+      'ru': '',
+      'uk': '',
+    },
+    'r81voqho': {
+      'en': '1',
+      'ru': '',
+      'uk': '',
+    },
+    '6v9v0ta0': {
+      'en': 'Home',
+      'ru': '',
+      'uk': '',
+    },
+  },
+  // reportscreen
+  {
+    't6fcz14f': {
+      'en': 'Daily',
+      'ru': '',
+      'uk': '',
+    },
+    '5dlehfnf': {
+      'en': 'Calories',
+      'ru': '',
+      'uk': '',
+    },
+    'jd1t0fxd': {
+      'en': '1,592',
+      'ru': '',
+      'uk': '',
+    },
+    'gcb7thb7': {
+      'en': ' Kcl',
+      'ru': '',
+      'uk': '',
+    },
+    'og3hc60g': {
+      'en': 'View Now',
+      'ru': '',
+      'uk': '',
+    },
+    '0lu7oa7q': {
+      'en': 'Weight',
+      'ru': '',
+      'uk': '',
+    },
+    'fqijgjyq': {
+      'en': '63.5',
+      'ru': '',
+      'uk': '',
+    },
+    'rki7cuwt': {
+      'en': ' Kg',
+      'ru': '',
+      'uk': '',
+    },
+    'qasf19r4': {
+      'en': 'View Now',
+      'ru': '',
+      'uk': '',
+    },
+    'trr8rkm0': {
+      'en': 'Your Workouts',
+      'ru': '',
+      'uk': '',
+    },
+    '8sp8ss88': {
+      'en': 'Daily Warmup',
+      'ru': '',
+      'uk': '',
+    },
+    'p3uo05v5': {
+      'en': '8 Mins',
+      'ru': '',
+      'uk': '',
+    },
+    'xf7or4w5': {
+      'en': ' || ',
+      'ru': '',
+      'uk': '',
+    },
+    'gjw0ke9y': {
+      'en': '3 workouts',
+      'ru': '',
+      'uk': '',
+    },
+    '0wynri57': {
+      'en': 'Shoulder Session',
+      'ru': '',
+      'uk': '',
+    },
+    'qx3t8kgp': {
+      'en': '12 Mins',
+      'ru': '',
+      'uk': '',
+    },
+    '49r200yp': {
+      'en': ' || ',
+      'ru': '',
+      'uk': '',
+    },
+    'za67wrzg': {
+      'en': '3 workouts',
+      'ru': '',
+      'uk': '',
+    },
+    'q151h3nt': {
+      'en': 'Weekly',
+      'ru': '',
+      'uk': '',
+    },
+    'cc381eu3': {
+      'en': 'Calories',
+      'ru': '',
+      'uk': '',
+    },
+    'hm7tq6k7': {
+      'en': '7,520',
+      'ru': '',
+      'uk': '',
+    },
+    'morbz004': {
+      'en': ' Kcl',
+      'ru': '',
+      'uk': '',
+    },
+    '0vszqshk': {
+      'en': 'View Now',
+      'ru': '',
+      'uk': '',
+    },
+    'lgq8fs1n': {
+      'en': 'Workouts',
+      'ru': '',
+      'uk': '',
+    },
+    'j39lw7dw': {
+      'en': '4',
+      'ru': '',
+      'uk': '',
+    },
+    'ew76uidf': {
+      'en': ' /7',
+      'ru': '',
+      'uk': '',
+    },
+    'icdrotnl': {
+      'en': 'View Now',
+      'ru': '',
+      'uk': '',
+    },
+    'z1nmnfs4': {
+      'en': 'Top Workouts',
+      'ru': '',
+      'uk': '',
+    },
+    'aiixsem7': {
+      'en': 'Pushups',
+      'ru': '',
+      'uk': '',
+    },
+    '6cuqwluf': {
+      'en': '225',
+      'ru': '',
+      'uk': '',
+    },
+    '042ibee9': {
+      'en': '\n34% than last week',
+      'ru': '',
+      'uk': '',
+    },
+    '910m93rm': {
+      'en': '37%',
+      'ru': '',
+      'uk': '',
+    },
+    'k2b711z3': {
+      'en': 'Pull Ups',
+      'ru': '',
+      'uk': '',
+    },
+    'ac0yem3r': {
+      'en': '105',
+      'ru': '',
+      'uk': '',
+    },
+    'jga7qwx0': {
+      'en': '\n12% than last week',
+      'ru': '',
+      'uk': '',
+    },
+    'g6uh32i6': {
+      'en': '82%',
+      'ru': '',
+      'uk': '',
+    },
+    '7rzleva3': {
+      'en': 'Monthly',
+      'ru': '',
+      'uk': '',
+    },
+    '9gyxf01y': {
+      'en': 'Tab View 3',
+      'ru': '',
+      'uk': '',
+    },
+    'repyq213': {
+      'en': 'Progress',
+      'ru': '',
+      'uk': '',
+    },
+    'i0f2wd1l': {
+      'en': 'Home',
+      'ru': '',
+      'uk': '',
+    },
+  },
   // SideNav01
   {
     'jv9nol5m': {
-      'en': 'check.io',
+      'en': 'FMAD',
       'ru': 'проверить.io',
       'uk': 'check.io',
     },
@@ -1392,12 +1761,12 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'uk': 'Мій канал',
     },
     'z4riasnk': {
-      'en': 'Dashboard',
+      'en': 'Flights',
       'ru': 'Панель приборов',
       'uk': 'Панель приладів',
     },
     'l5t4qnac': {
-      'en': 'My Team',
+      'en': 'Pilots',
       'ru': 'Моя команда',
       'uk': 'Моя команда',
     },
@@ -1407,7 +1776,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'uk': 'Повідомлення',
     },
     'fv4ww0ur': {
-      'en': 'Completed Tasks',
+      'en': 'Finances',
       'ru': 'Выполненные задачи',
       'uk': 'Виконані завдання',
     },
@@ -1420,16 +1789,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Add Channel',
       'ru': 'Добавить канал',
       'uk': 'Додати канал',
-    },
-    'tb43k8vk': {
-      'en': 'Andrew D.',
-      'ru': 'Эндрю Д.',
-      'uk': 'Ендрю Д.',
-    },
-    'iizmfk7p': {
-      'en': 'Admin',
-      'ru': 'Админ',
-      'uk': 'адмін',
     },
   },
   // sidewidg

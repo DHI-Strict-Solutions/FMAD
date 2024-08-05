@@ -1,7 +1,11 @@
 import '/components/side_nav01_widget.dart';
+import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
 import 'bnb_widget.dart' show BnbWidget;
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 
 class BnbModel extends FlutterFlowModel<BnbWidget> {
   ///  State fields for stateful widgets in this page.

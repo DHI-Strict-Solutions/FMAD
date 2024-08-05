@@ -4,6 +4,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'sidewidg_model.dart';
 export 'sidewidg_model.dart';
 
@@ -45,15 +46,15 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
+          padding: EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
           child: Container(
             width: double.infinity,
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
             ),
-            alignment: const AlignmentDirectional(0.0, 0.0),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(16.0, 8.0, 16.0, 8.0),
+              padding: EdgeInsetsDirectional.fromSTEB(16.0, 8.0, 16.0, 8.0),
               child: Row(
                 mainAxisSize: MainAxisSize.max,
                 children: [
@@ -70,7 +71,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                     ),
                     child: Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(2.0, 2.0, 2.0, 2.0),
+                          EdgeInsetsDirectional.fromSTEB(2.0, 2.0, 2.0, 2.0),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(40.0),
                         child: Image.network(
@@ -84,7 +85,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -106,7 +107,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
+                          padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 4.0, 0.0, 0.0),
                           child: Text(
                             currentUserEmail,
@@ -131,13 +132,13 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
           ),
         ),
         Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+          padding: EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
           child: Container(
             width: double.infinity,
             height: 60.0,
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
-              boxShadow: const [
+              boxShadow: [
                 BoxShadow(
                   blurRadius: 5.0,
                   color: Color(0x3416202A),
@@ -150,9 +151,9 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
               ],
               borderRadius: BorderRadius.circular(12.0),
             ),
-            alignment: const AlignmentDirectional(0.0, 0.0),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+              padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
               child: Row(
                 mainAxisSize: MainAxisSize.max,
                 children: [
@@ -163,7 +164,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
                         'ex6undas' /* Flights */,
@@ -179,7 +180,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Expanded(
                     child: Align(
-                      alignment: const AlignmentDirectional(0.9, 0.0),
+                      alignment: AlignmentDirectional(0.9, 0.0),
                       child: Icon(
                         Icons.arrow_forward_ios,
                         color: FlutterFlowTheme.of(context).secondaryText,
@@ -193,13 +194,13 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
           ),
         ),
         Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+          padding: EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
           child: Container(
             width: double.infinity,
             height: 60.0,
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
-              boxShadow: const [
+              boxShadow: [
                 BoxShadow(
                   blurRadius: 5.0,
                   color: Color(0x3416202A),
@@ -212,9 +213,9 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
               ],
               borderRadius: BorderRadius.circular(12.0),
             ),
-            alignment: const AlignmentDirectional(0.0, 0.0),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+              padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
               child: Row(
                 mainAxisSize: MainAxisSize.max,
                 children: [
@@ -225,7 +226,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
                         '29eobgx9' /* Aircraft */,
@@ -241,7 +242,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Expanded(
                     child: Align(
-                      alignment: const AlignmentDirectional(0.9, 0.0),
+                      alignment: AlignmentDirectional(0.9, 0.0),
                       child: Icon(
                         Icons.arrow_forward_ios,
                         color: FlutterFlowTheme.of(context).secondaryText,
@@ -255,13 +256,13 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
           ),
         ),
         Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+          padding: EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
           child: Container(
             width: double.infinity,
             height: 60.0,
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
-              boxShadow: const [
+              boxShadow: [
                 BoxShadow(
                   blurRadius: 5.0,
                   color: Color(0x3416202A),
@@ -274,9 +275,9 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
               ],
               borderRadius: BorderRadius.circular(12.0),
             ),
-            alignment: const AlignmentDirectional(0.0, 0.0),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+              padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
               child: Row(
                 mainAxisSize: MainAxisSize.max,
                 children: [
@@ -287,7 +288,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
                         '52luxin1' /* Airports */,
@@ -303,7 +304,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Expanded(
                     child: Align(
-                      alignment: const AlignmentDirectional(0.9, 0.0),
+                      alignment: AlignmentDirectional(0.9, 0.0),
                       child: Icon(
                         Icons.arrow_forward_ios,
                         color: FlutterFlowTheme.of(context).secondaryText,
@@ -317,13 +318,13 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
           ),
         ),
         Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+          padding: EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
           child: Container(
             width: double.infinity,
             height: 60.0,
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
-              boxShadow: const [
+              boxShadow: [
                 BoxShadow(
                   blurRadius: 5.0,
                   color: Color(0x3416202A),
@@ -336,9 +337,9 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
               ],
               borderRadius: BorderRadius.circular(12.0),
             ),
-            alignment: const AlignmentDirectional(0.0, 0.0),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+              padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
               child: Row(
                 mainAxisSize: MainAxisSize.max,
                 children: [
@@ -349,7 +350,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
                         'zreixiwl' /* Users */,
@@ -365,7 +366,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Expanded(
                     child: Align(
-                      alignment: const AlignmentDirectional(0.9, 0.0),
+                      alignment: AlignmentDirectional(0.9, 0.0),
                       child: Icon(
                         Icons.arrow_forward_ios,
                         color: FlutterFlowTheme.of(context).secondaryText,
@@ -379,13 +380,13 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
           ),
         ),
         Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+          padding: EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
           child: Container(
             width: double.infinity,
             height: 60.0,
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
-              boxShadow: const [
+              boxShadow: [
                 BoxShadow(
                   blurRadius: 5.0,
                   color: Color(0x3416202A),
@@ -398,9 +399,9 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
               ],
               borderRadius: BorderRadius.circular(12.0),
             ),
-            alignment: const AlignmentDirectional(0.0, 0.0),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+              padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
               child: Row(
                 mainAxisSize: MainAxisSize.max,
                 children: [
@@ -411,7 +412,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
                         'phoelcj5' /* Finances */,
@@ -427,7 +428,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                   ),
                   Expanded(
                     child: Align(
-                      alignment: const AlignmentDirectional(0.9, 0.0),
+                      alignment: AlignmentDirectional(0.9, 0.0),
                       child: Icon(
                         Icons.arrow_forward_ios,
                         color: FlutterFlowTheme.of(context).secondaryText,
@@ -441,9 +442,9 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
           ),
         ),
         Align(
-          alignment: const AlignmentDirectional(0.0, 0.0),
+          alignment: AlignmentDirectional(0.0, 0.0),
           child: Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(16.0, 24.0, 16.0, 0.0),
+            padding: EdgeInsetsDirectional.fromSTEB(16.0, 24.0, 16.0, 0.0),
             child: FFButtonWidget(
               onPressed: () async {
                 logFirebaseEvent('SIDEWIDG_COMP_LOG_OUT_BTN_ON_TAP');
@@ -460,8 +461,8 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
               options: FFButtonOptions(
                 width: 150.0,
                 height: 44.0,
-                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).primaryBackground,
                 textStyle: FlutterFlowTheme.of(context).labelLarge.override(
                       fontFamily: FlutterFlowTheme.of(context).labelLargeFamily,
@@ -470,7 +471,7 @@ class _SidewidgWidgetState extends State<SidewidgWidget> {
                           FlutterFlowTheme.of(context).labelLargeFamily),
                     ),
                 elevation: 0.0,
-                borderSide: const BorderSide(
+                borderSide: BorderSide(
                   color: Color(0x00000000),
                   width: 2.0,
                 ),

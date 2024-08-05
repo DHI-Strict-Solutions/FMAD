@@ -3,6 +3,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'home_model.dart';
 export 'home_model.dart';
 
@@ -45,7 +46,7 @@ class _HomeWidgetState extends State<HomeWidget> {
               : FocusScope.of(context).unfocus(),
           child: Scaffold(
             key: scaffoldKey,
-            backgroundColor: const Color(0xFFF0F5F9),
+            backgroundColor: Color(0xFFF0F5F9),
             appBar: responsiveVisibility(
               context: context,
               tabletLandscape: false,
@@ -70,7 +71,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                     actions: [
                       Padding(
                         padding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 30.0, 0.0),
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 30.0, 0.0),
                         child: InkWell(
                           splashColor: Colors.transparent,
                           focusColor: Colors.transparent,
@@ -97,15 +98,15 @@ class _HomeWidgetState extends State<HomeWidget> {
             body: SafeArea(
               top: true,
               child: Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
+                padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    const Spacer(),
+                    Spacer(),
                     Align(
-                      alignment: const AlignmentDirectional(0.0, -1.0),
+                      alignment: AlignmentDirectional(0.0, -1.0),
                       child: FFButtonWidget(
                         onPressed: () async {
                           logFirebaseEvent('HOME_PAGE_FLIGHTS_BTN_ON_TAP');
@@ -119,9 +120,9 @@ class _HomeWidgetState extends State<HomeWidget> {
                         options: FFButtonOptions(
                           width: double.infinity,
                           height: 55.0,
-                          padding: const EdgeInsetsDirectional.fromSTEB(
+                          padding: EdgeInsetsDirectional.fromSTEB(
                               30.0, 0.0, 30.0, 0.0),
-                          iconPadding: const EdgeInsetsDirectional.fromSTEB(
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 0.0),
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle: FlutterFlowTheme.of(context)
@@ -136,7 +137,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                         .titleSmallFamily),
                               ),
                           elevation: 3.0,
-                          borderSide: const BorderSide(
+                          borderSide: BorderSide(
                             color: Colors.transparent,
                             width: 1.0,
                           ),
@@ -144,7 +145,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                         ),
                       ),
                     ),
-                    const Spacer(),
+                    Spacer(),
                     FFButtonWidget(
                       onPressed: () async {
                         logFirebaseEvent('HOME_PAGE_AIRCRAFT_BTN_ON_TAP');
@@ -158,10 +159,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 55.0,
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             30.0, 0.0, 30.0, 0.0),
                         iconPadding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle: FlutterFlowTheme.of(context)
                             .titleSmall
@@ -175,7 +176,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                       .titleSmallFamily),
                             ),
                         elevation: 3.0,
-                        borderSide: const BorderSide(
+                        borderSide: BorderSide(
                           color: Colors.transparent,
                           width: 1.0,
                         ),
@@ -191,13 +192,13 @@ class _HomeWidgetState extends State<HomeWidget> {
                     ))
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.all(12.0),
+                          padding: EdgeInsets.all(12.0),
                           child: Container(
                             width: 72.0,
                             height: double.infinity,
                             decoration: BoxDecoration(
-                              color: const Color(0xFF6F61EF),
-                              boxShadow: const [
+                              color: Color(0xFF6F61EF),
+                              boxShadow: [
                                 BoxShadow(
                                   blurRadius: 0.0,
                                   color: Color(0xFFE5E7EB),
@@ -209,18 +210,18 @@ class _HomeWidgetState extends State<HomeWidget> {
                               ],
                               borderRadius: BorderRadius.circular(12.0),
                               border: Border.all(
-                                color: const Color(0x9AFFFFFF),
+                                color: Color(0x9AFFFFFF),
                                 width: 2.0,
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
+                              padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 12.0, 0.0, 0.0),
                               child: Column(
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   // Logo should go here.
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 12.0, 0.0, 0.0),
                                     child: Icon(
@@ -229,7 +230,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                       size: 32.0,
                                     ),
                                   ),
-                                  const Divider(
+                                  Divider(
                                     height: 12.0,
                                     thickness: 2.0,
                                     color: Color(0x4D9489F5),
@@ -238,10 +239,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                                     width: 44.0,
                                     height: 44.0,
                                     decoration: BoxDecoration(
-                                      color: const Color(0xFF6F61EF),
+                                      color: Color(0xFF6F61EF),
                                       borderRadius: BorderRadius.circular(12.0),
                                     ),
-                                    child: const Padding(
+                                    child: Padding(
                                       padding: EdgeInsets.all(8.0),
                                       child: Icon(
                                         Icons.ssid_chart_rounded,
@@ -254,13 +255,13 @@ class _HomeWidgetState extends State<HomeWidget> {
                                     width: 44.0,
                                     height: 44.0,
                                     decoration: BoxDecoration(
-                                      color: const Color(0x4D9489F5),
+                                      color: Color(0x4D9489F5),
                                       borderRadius: BorderRadius.circular(12.0),
                                       border: Border.all(
-                                        color: const Color(0x4D9489F5),
+                                        color: Color(0x4D9489F5),
                                       ),
                                     ),
-                                    child: const Padding(
+                                    child: Padding(
                                       padding: EdgeInsets.all(8.0),
                                       child: Icon(
                                         Icons.forum_rounded,
@@ -273,10 +274,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                                     width: 44.0,
                                     height: 44.0,
                                     decoration: BoxDecoration(
-                                      color: const Color(0xFF6F61EF),
+                                      color: Color(0xFF6F61EF),
                                       borderRadius: BorderRadius.circular(12.0),
                                     ),
-                                    child: const Padding(
+                                    child: Padding(
                                       padding: EdgeInsets.all(8.0),
                                       child: Icon(
                                         Icons.groups_sharp,
@@ -289,10 +290,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                                     width: 44.0,
                                     height: 44.0,
                                     decoration: BoxDecoration(
-                                      color: const Color(0xFF6F61EF),
+                                      color: Color(0xFF6F61EF),
                                       borderRadius: BorderRadius.circular(12.0),
                                     ),
-                                    child: const Padding(
+                                    child: Padding(
                                       padding: EdgeInsets.all(8.0),
                                       child: Icon(
                                         Icons.table_chart_outlined,
@@ -305,10 +306,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                                     width: 44.0,
                                     height: 44.0,
                                     decoration: BoxDecoration(
-                                      color: const Color(0xFF6F61EF),
+                                      color: Color(0xFF6F61EF),
                                       borderRadius: BorderRadius.circular(12.0),
                                     ),
-                                    child: const Padding(
+                                    child: Padding(
                                       padding: EdgeInsets.all(8.0),
                                       child: Icon(
                                         Icons.settings_rounded,
@@ -317,13 +318,13 @@ class _HomeWidgetState extends State<HomeWidget> {
                                       ),
                                     ),
                                   ),
-                                ].divide(const SizedBox(height: 16.0)),
+                                ].divide(SizedBox(height: 16.0)),
                               ),
                             ),
                           ),
                         ),
                       ),
-                    const Spacer(),
+                    Spacer(),
                     FFButtonWidget(
                       onPressed: () async {
                         logFirebaseEvent('HOME_PAGE_AIRPORTS_BTN_ON_TAP');
@@ -337,10 +338,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 55.0,
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             30.0, 0.0, 30.0, 0.0),
                         iconPadding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle: FlutterFlowTheme.of(context)
                             .titleSmall
@@ -354,14 +355,14 @@ class _HomeWidgetState extends State<HomeWidget> {
                                       .titleSmallFamily),
                             ),
                         elevation: 3.0,
-                        borderSide: const BorderSide(
+                        borderSide: BorderSide(
                           color: Colors.transparent,
                           width: 1.0,
                         ),
                         borderRadius: BorderRadius.circular(8.0),
                       ),
                     ),
-                    const Spacer(),
+                    Spacer(),
                     FFButtonWidget(
                       onPressed: () async {
                         logFirebaseEvent('HOME_PAGE_USERS_BTN_ON_TAP');
@@ -375,10 +376,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 55.0,
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             30.0, 0.0, 30.0, 0.0),
                         iconPadding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle: FlutterFlowTheme.of(context)
                             .titleSmall
@@ -392,14 +393,14 @@ class _HomeWidgetState extends State<HomeWidget> {
                                       .titleSmallFamily),
                             ),
                         elevation: 3.0,
-                        borderSide: const BorderSide(
+                        borderSide: BorderSide(
                           color: Colors.transparent,
                           width: 1.0,
                         ),
                         borderRadius: BorderRadius.circular(8.0),
                       ),
                     ),
-                    const Spacer(),
+                    Spacer(),
                     FFButtonWidget(
                       onPressed: () async {
                         logFirebaseEvent('HOME_PAGE_FINANCES_BTN_ON_TAP');
@@ -413,10 +414,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 55.0,
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             30.0, 0.0, 30.0, 0.0),
                         iconPadding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                         color: FlutterFlowTheme.of(context).primary,
                         textStyle: FlutterFlowTheme.of(context)
                             .titleSmall
@@ -430,7 +431,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                       .titleSmallFamily),
                             ),
                         elevation: 3.0,
-                        borderSide: const BorderSide(
+                        borderSide: BorderSide(
                           color: Colors.transparent,
                           width: 1.0,
                         ),

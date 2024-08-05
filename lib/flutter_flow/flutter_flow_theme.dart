@@ -176,15 +176,15 @@ class LightModeTheme extends FlutterFlowTheme {
   late Color error = const Color(0xFFFF0000);
   late Color info = const Color(0xFFADD8E6);
 
-  late Color primaryBtnText = const Color(0xFFFFFFFF);
-  late Color lineColor = const Color(0xFFE0E3E7);
-  late Color btnText = const Color(0xFFFFFFFF);
-  late Color overlay = const Color(0xCCFFFFFF);
-  late Color dark350 = const Color(0xFFFFFFFF);
-  late Color primary600 = const Color(0xFF452FB7);
-  late Color secondary30 = const Color(0x4D39D2C0);
-  late Color primary30 = const Color(0x4C4B39EF);
-  late Color tertiary30 = const Color(0x4DEE8B60);
+  late Color primaryBtnText = Color(0xFFFFFFFF);
+  late Color lineColor = Color(0xFFE0E3E7);
+  late Color btnText = Color(0xFFFFFFFF);
+  late Color overlay = Color(0xCCFFFFFF);
+  late Color dark350 = Color(0xFFFFFFFF);
+  late Color primary600 = Color(0xFF452FB7);
+  late Color secondary30 = Color(0x4D39D2C0);
+  late Color primary30 = Color(0x4C4B39EF);
+  late Color tertiary30 = Color(0x4DEE8B60);
 }
 
 abstract class Typography {
@@ -578,15 +578,15 @@ class DarkModeTheme extends FlutterFlowTheme {
   late Color error = const Color(0xFFCC0000);
   late Color info = const Color(0xFF85C1E0);
 
-  late Color primaryBtnText = const Color(0xFFFFFFFF);
-  late Color lineColor = const Color(0xFF323B45);
-  late Color btnText = const Color(0xFFFFFFFF);
-  late Color overlay = const Color(0xCB1A1F24);
-  late Color dark350 = const Color(0xFF262D34);
-  late Color primary600 = const Color(0xFF452FB7);
-  late Color secondary30 = const Color(0x4D39D2C0);
-  late Color primary30 = const Color(0x4C4B39EF);
-  late Color tertiary30 = const Color(0x4DEE8B60);
+  late Color primaryBtnText = Color(0xFFFFFFFF);
+  late Color lineColor = Color(0xFF323B45);
+  late Color btnText = Color(0xFFFFFFFF);
+  late Color overlay = Color(0xCB1A1F24);
+  late Color dark350 = Color(0xFF262D34);
+  late Color primary600 = Color(0xFF452FB7);
+  late Color secondary30 = Color(0x4D39D2C0);
+  late Color primary30 = Color(0x4C4B39EF);
+  late Color tertiary30 = Color(0x4DEE8B60);
 }
 
 extension TextStyleHelper on TextStyle {
